@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dhakshana Kabi S B · Data Engineer &amp; Data Science Portfolio</title>
+<meta name="description" content="Portfolio of Dhakshana Kabi S B – Data Engineer and Data Science engineer: ETL pipelines, machine learning, dashboards and cloud.">
+<meta property="og:title" content="Dhakshana Kabi S B · Data Engineer">
+<meta property="og:description" content="ETL pipelines, ML models, dashboards and cloud – turning raw data into decisions.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%23ff4d8d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='28' fill='url(%23g)'/%3E%3Ctext x='50' y='66' font-size='52' font-family='monospace' font-weight='700' text-anchor='middle' fill='white'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home"><span>&lt;</span>DK<span>/&gt;</span></a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Pipeline</a>
+    <a href="#projects">Project</a>
+    <a href="#certs">Certs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="icon-btn" id="theme" aria-label="Toggle light / dark theme">◐</button>
+    <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="eyebrow"><span class="dot"></span> Available for immediate joining · Open to relocate</p>
+    <h1>Hi, I'm <span class="grad">Dhakshana Kabi</span><br>
+      <span class="typed-wrap">I turn data into <span id="typed" class="typed"></span><span class="caret"></span></span></h1>
+    <p class="lead">Data Engineer &amp; Data Science engineer who builds scalable ETL pipelines, ships ML models into production and designs real-time dashboards – with AWS &amp; Azure certifications and a B.Tech in AI &amp; Data Science.</p>
+    <div class="cta">
+      <a class="btn primary" href="#contact">Get in touch →</a>
+      <a class="btn ghost" href="assets/Dhakshana_Resume.pdf" id="dl-hero" download>⬇ Download resume</a>
+    </div>
+    <div class="socials">
+      <a href="mailto:dhakshanabalsan@gmail.com">✉ dhakshanabalsan@gmail.com</a>
+      <!-- <a href="tel:+918682889246">☎ +91 86828 89246</a> -->
+      <span>⌖ Chennai, India</span>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="photo-wrap">
+      <div class="ring"></div>
+      <div class="photo"><img src="assets\Professional Indian Woman Portrait.png" alt="Portrait of Dhakshana Kabi S B" width="50" height="300"></div>
+      <span class="chip c1">🐍 Python</span>
+      <span class="chip c2">🗄 PostgreSQL</span>
+      <span class="chip c3">☁ AWS · Azure</span>
+      <span class="chip c4">🤖 XGBoost</span>
+      <span class="chip c5">📊 Superset</span>
+    </div>
+    <div class="code-card" aria-hidden="true">
+<pre><span class="k">class</span> <span class="f">DataEngineer</span>:
+  name  = <span class="s">"Dhakshana Kabi S B"</span>
+  stack = [<span class="s">"Python"</span>, <span class="s">"SQL"</span>, <span class="s">"PySpark"</span>]
+  certs = [<span class="s">"AZ-204"</span>, <span class="s">"AZ-900"</span>, <span class="s">"AWS CCP"</span>]
+  <span class="k">def</span> <span class="f">mission</span>(self):
+    <span class="k">return</span> <span class="s">"raw data → decisions"</span></pre>
+    </div>
+  </div>
+</section>
+
+<!-- KPI -->
+<section class="kpis" aria-label="Highlights">
+  <div class="kpi k1"><b data-count="2" data-suffix="+">0</b><span>Years in data roles</span></div>
+  <div class="kpi k2"><b data-count="3">0</b><span>Cloud certifications</span></div>
+  <div class="kpi k3"><b data-count="5">0</b><span>Key achievements</span></div>
+  <div class="kpi k4"><b id="kpi-dl">–</b><span>Resume downloads</span></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="title"><i>01</i> About me</h2>
+  <div class="about-grid">
+    <div class="card glass">
+      <p>Motivated by a passion for transforming complex data into actionable insights, I'm a Data Engineer and Analyst with experience in <b>ETL pipeline development</b>, <b>machine learning integration</b> and <b>business intelligence</b>.</p>
+      <p>At <b>Pranion Technology Ventures</b> I built scalable data systems on PostgreSQL and Amazon S3 and deployed real-time dashboards with Apache Superset. At <b>Capgemini</b> I support insurance data workflows and UAT resolution in an Agile environment.</p>
+      <p class="muted">Goal: grow into a senior data engineering or data science role – architecting end-to-end data solutions and contributing to impactful AI/ML initiatives.</p>
+    </div>
+    <div class="card glass facts">
+      <h3>Quick facts</h3>
+      <ul>
+        <li><span>📍</span> Chennai, India</li>
+        <li><span>🎓</span> B.Tech AI &amp; Data Science</li>
+        <!-- <li><span>💼</span> Analyst @ Capgemini</li> -->
+        <li><span>🗣</span> Tamil · English</li>
+        <li><span>🧭</span> On-site · Hybrid · Remote</li>
+        <li><span>🌏</span> Open to relocation worldwide</li>
+      </ul>
+      <div class="tags"><span>Marine conservation tech</span><span>AI/ML research</span><span>Dashboard design</span><span>Open source</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="title"><i>02</i> Toolkit</h2>
+  <div class="skill-grid" id="skillGrid"></div>
+</section>
+
+<!-- EXPERIENCE AS ETL PIPELINE -->
+<section id="experience" class="section">
+  <h2 class="title"><i>03</i> Career pipeline <small>Extract → Transform → Load</small></h2>
+  <div class="pipeline">
+    <article class="stage s1 glass">
+      <div class="badge">EXTRACT</div>
+      <h3>B.Tech · AI &amp; Data Science</h3>
+      <p class="meta">Mepco Schlenk Engineering College · 2020 – 2024</p>
+      <p>GPA 7.2 / 10. Built the foundations: ML, deep learning, computer vision and the marine detection project.</p>
+    </article>
+    <article class="stage s2 glass">
+      <div class="badge">TRANSFORM</div>
+      <h3>Data Engineer</h3>
+      <p class="meta">Pranion Technology Ventures · Apr – Nov 2024</p>
+      <ul>
+        <li>Optimised PostgreSQL &amp; S3 backends: query tuning, connection pooling, storage tiering.</li>
+        <li>Engineered Python + PostgreSQL ETL pipelines from multiple sources into clean analytical stores.</li>
+        <li>Built multi-page, live Apache Superset dashboards for real-time KPI tracking.</li>
+        <li>Tuned XGBoost &amp; LightGBM models, lifting recommendation precision and engagement.</li>
+        <li>Audited slow queries with EXPLAIN ANALYZE – composite indexes, schema normalisation, join rewrites.</li>
+        <li>Deployed ML models into live pipelines with versioning; S3 for datasets &amp; artefacts.</li>
+      </ul>
+    </article>
+    <article class="stage s3 glass">
+      <div class="badge">LOAD</div>
+      <h3>Analyst</h3>
+      <p class="meta">Capgemini, Chennai · Dec 2024 – Present</p>
+      <ul>
+        <li>Guidewire PolicyCenter: configured &amp; validated insurance data models across the policy lifecycle.</li>
+        <li>Financial Services data mapping, requirement analysis and regulatory-reporting alignment.</li>
+        <li>Managed defect lifecycle in JIRA within Agile/Scrum, weekly releases.</li>
+        <li>Resolved UAT &amp; production data-integrity issues with SQL; led cross-team data-quality investigations.</li>
+        <li>Delivered validation &amp; reconciliation reports, data dictionaries and runbooks for audit readiness.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects" class="section">
+  <h2 class="title"><i>04</i> Featured project</h2>
+  <div class="project glass">
+    <div class="p-head">
+      <div>
+        <h3>🌊 Deep Learning Marine Detection Network</h3>
+        <p class="meta">Sep 2023 – Apr 2024 · Python · Deep Learning · Computer Vision · Streamlit · HTML/JS</p>
+      </div>
+      <span class="status">End-to-end ML</span>
+    </div>
+    <p>An end-to-end deep learning pipeline that autonomously detects and classifies underwater debris – separating biodegradable from non-biodegradable material – using custom CNNs trained on real marine video footage.</p>
+    <div class="flow" aria-label="Project pipeline">
+      <span>🎞 Video</span><i>→</i><span>🖼 Frames</span><i>→</i><span>🧹 Normalise</span><i>→</i><span>🎯 YOLO · CNN</span><i>→</i><span>📈 Evaluate</span><i>→</i><span>🌐 Streamlit</span>
+    </div>
+    <ul class="cols">
+      <li>Video preprocessing: extract, filter &amp; normalise frames for temporal analysis.</li>
+      <li>YOLO detection, segmentation and multi-class classification across varied underwater conditions.</li>
+      <li>Evaluated with precision, recall, F1 &amp; confusion matrix; tuned hyper-parameters and augmentation.</li>
+      <li>Shipped as an interactive web app: upload a clip, get real-time annotated results.</li>
+    </ul>
+  </div>
+  <div class="wins">
+    <h3>Key achievements</h3>
+    <div class="win-grid">
+      <div class="win w1">☁ <b>3 cloud certs</b> (AWS + Azure) in a single year</div>
+      <div class="win w2">⚡ <b>Faster PostgreSQL</b> via indexing, rewrites &amp; schema redesign</div>
+      <div class="win w3">🎯 <b>Higher ML accuracy</b> with models integrated into production</div>
+      <div class="win w4">📊 <b>Self-serve data</b> – Superset dashboards without SQL</div>
+      <div class="win w5">🛡 <b>SLA-bound fixes</b> across insurance data in UAT &amp; prod</div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTS & EDU -->
+<section id="certs" class="section">
+  <h2 class="title"><i>05</i> Certifications &amp; education</h2>
+  <div class="cert-grid">
+    <div class="cert ct1"><b>AZ-204</b><span>Microsoft Azure Developer Associate</span><em>2026</em></div>
+    <div class="cert ct2"><b>AZ-900</b><span>Microsoft Azure Fundamentals</span><em>2025</em></div>
+    <div class="cert ct3"><b>AWS CCP</b><span>AWS Certified Cloud Practitioner</span><em>2024 – 2027</em></div>
+  </div>
+  <div class="edu-grid">
+    <div class="glass"><h4>B.Tech – AI &amp; Data Science</h4><p>Mepco Schlenk Engineering College, Sivakasi</p><em>2020 – 2024 · GPA 7.2/10</em></div>
+    <div class="glass"><h4>Higher Secondary – Computer Science</h4><p>Velammal Vidhyalaya, Madurai</p><em>2019 – 2020 · 76%</em></div>
+    <div class="glass"><h4>Secondary School</h4><p>P.S. Chidambara Nadar Sr. English School</p><em>2017 – 2018 · 65.6%</em></div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume section" id="resume">
+  <div class="resume-card">
+    <div>
+      <h2>Want the full story?</h2>
+      <p>Download my resume as a PDF.</p>
+    </div>
+    <div class="resume-act">
+      <a class="btn light" href="assets\Dhakshana_Resume.pdf" id="dl-main" download>⬇ Download my resume</a>
+      <p class="count"><b id="dl-count">–</b> people have downloaded it</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="title"><i>06</i> Get in touch</h2>
+  <div class="contact-grid">
+    <div class="card glass">
+      <h3>Let's build something with data</h3>
+      <p>Have an opportunity, a project or just want to say hi? Drop a message – it lands straight in my inbox.</p>
+      <ul class="contact-list">
+        <li>✉ <a href="mailto:dhakshanabalsan@gmail.com">dhakshanabalsan@gmail.com</a></li>
+        <!-- <li>☎ <a href="tel:+918682889246">+91 86828 89246</a></li> -->
+        <li>⌖ Chennai, India</li>
+      </ul>
+    </div>
+    <form class="card glass form" id="contactForm" novalidate>
+      <label>Your name<input name="name" type="text" required maxlength="100" autocomplete="name" placeholder="Enter your name"></label>
+      <label>Your email<input name="email" type="email" required maxlength="150" autocomplete="email" placeholder="Enter your Email"></label>
+      <label>Message<textarea name="message" rows="5" required minlength="5" maxlength="3000" placeholder="Hi Dhakshana, …"></textarea></label>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn primary" type="submit" id="sendBtn">Send message ✈</button>
+      <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="yr">
+<p>
+  Built By · <span class="grad">Dhakshana Kabi S B</span>
+</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
